@@ -1,0 +1,66 @@
+// Lab3.cpp
+//
+// This file contains Lab#3 for CS3844
+//
+
+#include <Windows.h>
+#include <stdio.h>
+
+char gString[] = "Two's compliment is spelled wrong!";
+
+// main function for Lab #3
+// This lab will illustrate the use of registers by doing a simple add
+// 
+int main(int argc, char *argv[])
+{
+	char localString[] = "right";
+
+	// Replace the 'i' in gString
+	printf("\n\nLOOK!  gString: %s\n\n", gString);
+	__asm
+	{
+		nop								// does nothing but take up space and waste time
+		mov edx, dword ptr [gString]	// what do you think is in edx
+
+		lea edx,gString					// look this up, what does it do?
+
+SEARCH_LOOP:							// this is called a label, here it is labeling an address
+		mov al, byte ptr [edx]
+		cmp al,0
+		je EXIT_LOOP
+
+		inc edx
+		cmp al,'i'
+		jne SEARCH_LOOP
+
+		dec edx
+		mov byte ptr [edx],'e'
+
+SEARCH_LOOP2:
+		inc edx
+		cmp byte ptr[edx],0
+		je EXIT_LOOP
+
+		cmp byte ptr [edx], 'w'
+		jne SEARCH_LOOP2
+
+		mov ecx,5
+		lea ebx,localString
+
+COPY_LOOP:
+		mov al, byte ptr [ebx]
+		mov byte ptr [edx], al
+		inc ebx
+		inc edx
+		dec ecx
+		jne COPY_LOOP
+
+EXIT_LOOP:
+		nop
+	}
+
+	printf("Now look at gString:%s\n\n", gString);
+
+	system("pause");
+	return 0;
+} // main

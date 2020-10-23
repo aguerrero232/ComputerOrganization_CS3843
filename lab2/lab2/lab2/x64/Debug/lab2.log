@@ -1,0 +1,60 @@
+﻿  lab2.cpp
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(22,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(24,7): error C2065: 'eax': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(24,10): error C3192: syntax error: '^' is not a prefix operator (did you mean '*'?)
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(24,12): error C2065: 'eax': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(25,7): error C2065: 'ebx': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(25,12): error C2065: 'ebx': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(27,3): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(27,3): error C2065: 'mov': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(27,7): error C2146: syntax error: missing ';' before identifier 'al'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(27,7): error C2065: 'al': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(28,3): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(28,3): error C2065: 'mov': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(28,7): error C2146: syntax error: missing ';' before identifier 'bl'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(28,7): error C2065: 'bl': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(29,3): error C2146: syntax error: missing ';' before identifier 'add'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(29,3): error C2065: 'add': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(29,7): error C2146: syntax error: missing ';' before identifier 'al'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(29,7): error C2065: 'al': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(29,11): error C2065: 'bl': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(31,3): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(31,3): error C2065: 'mov': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(31,7): error C2146: syntax error: missing ';' before identifier 'usum'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(31,13): error C2065: 'al': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(32,3): error C2146: syntax error: missing ';' before identifier 'movzx'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(32,3): error C2065: 'movzx': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(32,9): error C2146: syntax error: missing ';' before identifier 'ecx'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(32,9): error C2065: 'ecx': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(32,14): error C2065: 'al': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(33,3): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(33,3): error C2065: 'mov': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(33,7): error C2146: syntax error: missing ';' before identifier 'usum32'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(33,15): error C2065: 'ecx': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(35,3): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(35,3): error C2065: 'mov': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(35,7): error C2146: syntax error: missing ';' before identifier 'ah'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(35,7): error C2065: 'ah': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(36,3): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(36,3): error C2065: 'mov': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(36,7): error C2146: syntax error: missing ';' before identifier 'bh'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(36,7): error C2065: 'bh': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(37,3): error C2146: syntax error: missing ';' before identifier 'add'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(37,3): error C2065: 'add': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(37,7): error C2146: syntax error: missing ';' before identifier 'ah'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(37,7): error C2065: 'ah': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(37,11): error C2065: 'bh': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(38,3): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(38,3): error C2065: 'mov': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(38,7): error C2146: syntax error: missing ';' before identifier 'ssum'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(38,13): error C2065: 'ah': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(40,3): error C2146: syntax error: missing ';' before identifier 'movsx'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(40,3): error C2065: 'movsx': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(40,9): error C2146: syntax error: missing ';' before identifier 'edx'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(40,9): error C2065: 'edx': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(40,14): error C2065: 'ah': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(41,3): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(41,3): error C2065: 'mov': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(41,7): error C2146: syntax error: missing ';' before identifier 'ssum32'
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(41,15): error C2065: 'edx': undeclared identifier
+C:\Users\Ariel_Guerrero\Desktop\Fall2020\Comp Org\Lab2\lab2\lab2\lab2.cpp(42,2): error C2143: syntax error: missing ';' before '}'
